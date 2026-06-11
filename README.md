@@ -7,6 +7,10 @@ A REST API built with FastAPI and Python.
 - Built with FastAPI and Pydantic
 - UUID-based todo identification
 - Auto-generated API documentation
+  
+## Database
+This API uses SQLite. The database file `todos.db` 
+is created automatically when you run the server.
 
 ## Requirements
 - Python 3.14+
