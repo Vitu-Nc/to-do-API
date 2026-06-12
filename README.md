@@ -8,6 +8,9 @@ A REST API built with FastAPI and Python.
 - UUID-based todo identification
 - Auto-generated API documentation
   
+## Authentication
+- POST /register — create a new account (username + password)
+- Passwords are hashed using bcrypt before storage
 ## Database
 This API uses SQLite. The database file `todos.db` 
 is created automatically when you run the server.
